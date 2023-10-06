@@ -1,0 +1,27 @@
+
+
+.maincontent{
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+body{
+    background-color: #fca6c9;
+}
+h1:hover{
+    color: black;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+#dif{
+    color: white;
+}
+#q1{
+    color: white;
+    font-weight: bold;
+}
+#pres{
+    max-width: 30%;
+}
