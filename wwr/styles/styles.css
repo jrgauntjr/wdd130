@@ -93,4 +93,7 @@ footer p{
 footer p:hover{
     text-decoration: underline;
 }
+.mountains{
+    margin: 100px 0;
+}
 

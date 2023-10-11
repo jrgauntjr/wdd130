@@ -1,0 +1,29 @@
+body{
+    margin: 0 auto;
+    font-size: 0;
+}
+#circle{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: #737373;
+}
+#desk{
+    width: 20%;
+    border: 20px solid black;
+    border-radius: 100%;
+    margin: 1%;
+}
+#graphic{
+    width: 20%;
+    border: 20px solid black;
+    border-radius: 100%;
+    margin: 1%;
+}
+#person{
+    width: 20%;
+    border: 20px solid black;
+    border-radius: 100%;
+    margin: 1%;
+}
