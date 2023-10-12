@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Ubuntu&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,18 +9,24 @@ nav a{
     text-align: center;
     color: #bdfeb8;
     text-decoration: none;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 #hero-msg h4{
     text-align: center;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 .button-box{
     text-align: center;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 main section{
     text-align: center;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 #background{
     height: 725px;
@@ -25,6 +34,9 @@ main section{
 }
 body{
     background-color: #3549fd;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: #7C3415;
@@ -33,15 +45,14 @@ nav a:hover{
     background-color: #7C3415;
     color: #bdfeb8;
 }
-.book{
+.book, .join{
     background-color: #7C3415;
     color: #bdfeb8;
     text-decoration: none;
-}
-.join{
-    background-color: #7C3415;
-    color: #bdfeb8;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #7C3415;
@@ -53,33 +64,47 @@ nav a:hover{
 }
 .msg{
     background-color: #7C3415;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #7C3415;
     color: #bdfeb8;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: white;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: white;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 .msg h2{
     color: #bdfeb8;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 .msg p{
     color: #bdfeb8;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #bdfeb8;
     text-decoration: none;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 footer a:hover{
     color: #bdfeb8;
     text-decoration: none;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -89,11 +114,30 @@ footer a:hover{
 }
 footer p{
     font-size: 1.2em;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 footer p:hover{
     text-decoration: underline;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
 .mountains{
     margin: 100px 0;
 }
-
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #7C3415;
+}
+main section img{
+    box-sizing: border-box;
+}
