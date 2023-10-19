@@ -1,0 +1,15 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tart{
+    grid-column: 1/3;
+    text-align: center;
+}
+.cherry{
+    grid-column: 2/2;
+    text-align: center;
+}
+.cherry_img{
+    grid-column: 1/1;
+}
