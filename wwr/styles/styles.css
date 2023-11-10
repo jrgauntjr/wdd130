@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Ubuntu&display=swap');
-
+/* Page 1*/
 
 #content{
     max-width: 1600px;
@@ -199,6 +199,99 @@ nav{
     grid-row: 2/3;
 }
 
+/* Page 2 CSS*/
+.faq-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.faq-title, .q1, .q1t, .q2, .q2t, .q3, .q3t, .q4, .q4t{
+    margin: 50px 0;
+}
+.faq-title{
+    background-color: #7C3415;
+    grid-column: 3/7;
+    font-size: 40px;
+}
+.faq-title h1{
+    color: #bdfeb8;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+}
+.q1{
+    background-color: #7C3415;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    height: 30%;
+}
+.q1 h2{
+    color: #bdfeb8;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 30px;
+}
+.q1t{
+    color: #bdfeb8;
+    background-color: #7C3415;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 20px;
+    grid-column: 4/8;
+    grid-row: 2/3;
+}
+.q2{
+    background-color: #7C3415;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    height: 10%;
+}
+.q2 h2{
+    color: #bdfeb8;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 30px;
+}
+.q2t{
+    color: #bdfeb8;
+    background-color: #7C3415;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 20px;
+    grid-column: 4/8;
+    grid-row: 3/4;
+}
+.q3{
+    background-color: #7C3415;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    height: 5%;
+}
+.q3 h2{
+    color: #bdfeb8;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 30px;
+}
+.q3t{
+    color: #bdfeb8;
+    background-color: #7C3415;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 20px;
+    grid-column: 4/8;
+    grid-row: 4/5;
+}
+.q4{
+    background-color: #7C3415;
+    grid-column: 2/4;
+    grid-row: 5/6;
+    height: 15%;
+}
+.q4 h2{
+    color: #bdfeb8;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 30px;
+}
+.q4t{
+    color: #bdfeb8;
+    background-color: #7C3415;
+    font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
+    font-size: 20px;
+    grid-column: 4/8;
+    grid-row: 5/6;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
