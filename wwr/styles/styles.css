@@ -216,6 +216,10 @@ nav{
     color: #bdfeb8;
     font-family: "Roboto Condensed", 'Times New Roman', sans-serif;
 }
+.faq-title img{
+    width: 40%;
+    height: 70%;
+}
 .q1{
     background-color: #7C3415;
     grid-column: 2/4;
